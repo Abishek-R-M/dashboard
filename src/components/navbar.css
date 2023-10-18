@@ -1,0 +1,79 @@
+.navbar {
+    background-color: #0B666A;
+    height: 100vh;
+    position: fixed;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 430;
+    padding: 20px 15px 15px 15px;
+    margin: 0px 5px 15px 5px;
+}
+
+.navcontent {
+    display: flex;
+    font-size: 13px;
+    color: #fff;
+    opacity: 60%;
+    padding: 8px;
+    align-items: center;
+    margin: 15px;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+}
+
+.navcontent span {
+   position: absolute;
+   left: 190px; 
+}
+
+.dashboard {
+    background-color: rgba(255, 255, 255, 0.2);
+    opacity: 100%;
+}
+
+.navsetting {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 190px 15px 30px 15px;
+    border-radius: 5px;
+    padding: 8px 10px ;
+
+}
+
+.profilename {
+    color: #fff;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.profilename span {
+    opacity: 50%;
+    font-size: 10px;
+}
+
+.arrow {
+    color: #fff;
+    opacity: 60%;
+    position: absolute;
+    left: 190px;
+}
+
+
+.profileimg {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}

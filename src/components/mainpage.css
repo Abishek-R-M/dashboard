@@ -1,0 +1,271 @@
+.mainpage {
+    background-color: #F0F0F0;
+    margin-left: 125px;
+    height: auto;
+}
+
+.firstcolumn {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.welcomename {
+    font-size: 20px;
+    font-weight: 440;
+}
+
+.welcomename span {
+    color: rgb(255, 60, 117);
+}
+
+.searchbar {  
+    font-size: 12px;  
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F3F9FB;
+}
+
+.secondcolumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10px;
+}
+
+.topoverview {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr ;
+    place-items: center;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 20px 10px 20px;
+    background-color: #fff;
+}
+
+.icon {
+    width: 95px;
+    height: 95px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.earning {
+    background-color: rgba(250, 190, 44, 0.2);
+}
+
+.list {
+    background-color: rgba(102, 33, 186, 0.3);
+}
+
+.wallet {
+    background-color: rgba(63, 106, 115, 0.3);
+}
+
+.salesbag {
+    background-color: rgba(30, 129, 206, 0.3);
+}
+
+.topcontent {
+    font-size: 12px;
+    opacity: 40%;
+}
+
+.topprice {
+    font-size: 20px;
+    font-weight: 450;
+    padding: 5px 0;
+}
+
+.topreview {
+    font-size: 10px;
+}
+
+.topreview span {
+    color: red;
+    font-weight: 550;
+}
+
+.topreview .uparrow {
+    color: #54B435;
+    font-weight: 550;
+} 
+
+.thirdcolumn {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+}
+
+.overview {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 15px 30px 20px 30px;
+}
+
+.overviewnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overviewnav .head {
+    font-size: 20px;
+    font-weight: 450;
+    padding: 15px;
+}
+
+.overviewnav span {
+    font-size: 13px;
+    opacity: 50%;
+    font-weight: 400;
+}
+
+.period {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    background-color: #F0F0F0;
+    padding: 4px 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.customersbuy {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 15px 30px 20px 10px;
+    padding: 15px;
+}
+
+.customersbuy p {
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.customersbuy span {
+    font-size: 13px;
+    opacity: 50%;
+    font-weight: 400;
+}
+
+.fourthcolumn {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20px 30px 10px 30px;
+}
+.productsell {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px 15px 30px;
+}
+
+.searchrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productsell p {
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.searchrow p {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    opacity: 50%;
+    background-color: #ECF9FF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+
+.productbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+    opacity: 60%;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.listofheading {
+    display: flex;
+}
+
+.listofheading p {
+    font-size: 14px;
+    margin: 0 10px 0 60px;
+}
+
+.productdetails {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 30px;
+    padding: 10px 0 ;
+}
+
+.productimg {
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.stockdetails {
+    display: flex;
+    align-items: center;
+}
+
+.proinfo {
+    display: flex;
+    align-items: center;
+}
+
+.stockdetails p {
+    padding: 10px;
+    margin-right: 48px;
+    font-size: 13px;
+}
+
+.productprice {
+    font-weight: 500;
+}
+
+.productinfo {
+    font-size: 15px;
+    font-weight: 450;
+    margin-left: 20px;
+}
+
+.productinfo span {
+    font-size: 12px;
+    opacity: 50%;
+    font-weight: 400;
+}
+
+.piediagram {
+    margin-left: 100px;
+    width: 100px;
+    height: 2px;
+    text-align: center;
+}
+
+.piediagram span {
+    font-size: 12px;
+    opacity: 100%;
+}
+
