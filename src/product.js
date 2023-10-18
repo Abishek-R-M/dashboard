@@ -29,7 +29,7 @@ const Products = [
         totalsales: "29",
     },
     {
-        productinfo: "Lambogini",
+        productinfo: "Lamborghini",
         productdescription: "Lorum ipsum dolor sit amet, consecture adisping efit.",
         productimage: image4,
         stock: "60 in stock",
